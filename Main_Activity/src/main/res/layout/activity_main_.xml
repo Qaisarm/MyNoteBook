@@ -12,13 +12,14 @@
         android:gravity="top"
         app:layout_constraintVertical_weight="1"
         android:hint="Enter your text here"/>
+
     <Button
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Save"
-        tools:layout_editor_absoluteX="433dp"
-        tools:layout_editor_absoluteY="461dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="433dp" />
 
 </android.support.constraint.ConstraintLayout>
