@@ -1,0 +1,1 @@
+include ':Main_Activity', ':app', ':base', ':instantapp'
